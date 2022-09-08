@@ -16,7 +16,7 @@ SET_FPS = 15
 
 def loadImages ():
     for key in list (IMAGES.keys()):  # Use a list instead of a view
-        IMAGES[key] = p.transform.scale(p.image.load('/Users/joshmachado/Desktop/Python_Projects/Chess/images/{}.png'
+        IMAGES[key] = p.transform.scale(p.image.load('/Users/joshmachado/Desktop/Studies/coding/Chess-Engine/images/{}.png'
                                                      .format(key)), (SQ_SIZE, SQ_SIZE))
 
 

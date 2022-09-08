@@ -4,7 +4,6 @@ legal moves in the position. It will also keep logs of moves played.
 '''
 
 import numpy as np
-import icecream as ic
 
 class GameState():
     def __init__(self):
